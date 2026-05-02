@@ -1,0 +1,95 @@
+*{
+  background-color: #121212;
+}
+p{
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+}
+a{
+  color: #bb86fc; /* Светло-фиолетовый для видимости */
+  text-decoration: none
+}
+button{
+  background-color: #8A2BE2; /* Тот самый фиолетовый */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #9D4EDD;
+}
+button font {
+  background: transparent !important;
+  color: inherit !important;
+}
+a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+label{
+  color: white;
+  font-family: sans-serif;
+}
+input{
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px; /* Закругленные углы */
+  margin-bottom: 10px;
+  color: white;
+  outline: none;
+  transition: border-color 0.3s;
+  width: 100%;
+  max-width: 300px;
+}
+select{
+  color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#not-IsLogin-Div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Playwrite NO", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+}
+#isLogin-Div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 35%;
+  padding-right: 35%;
+  color: #ffffff;
+}
+#add_tranzaction{
+  display: grid;
+  grid-template-columns: 1fr; /* Одна колонка */
+  justify-items: center;      /* Центрирует каждый элемент по горизонтали */
+  gap: 15px;                  /* Отступы между элементами */
+  max-width: 400px;           /* Ограничиваем ширину формы */
+  margin: 0 auto;
+}
+#p_rub{
+  background-color: rgba(0, 0, 0, 0);
+}
+#input{
+  display: flex;       /* Выстраивает детей в ряд */
+  align-items: center; /* Центрирует их по вертикали относительно друг друга */
+  gap: 10px;           /* Расстояние между полем и текстом */
+  width: 100%;
+  justify-content: center;
+}
+#exit{
+  margin: 10px;
+}
